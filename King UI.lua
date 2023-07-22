@@ -171,7 +171,7 @@ LoadText.Font = Enum.Font.Gotham
 LoadText.TextColor3 = Color3.fromRGB(255, 255, 255)
 LoadText.TextSize = 18.000
 LoadText.TextTransparency = 1
-LoadText.Text = "Loading..."
+LoadText.Text = "加载中"
 
 LoadTitle.Name = "LoadTitle"
 LoadTitle.Parent = LoadFrame
@@ -180,7 +180,7 @@ LoadTitle.BackgroundTransparency = 1.000
 LoadTitle.Position = UDim2.new(0.0432743616, 0, 0.1125011, 0)
 LoadTitle.Size = UDim2.new(0, 200, 0, 23)
 LoadTitle.Font = Enum.Font.GothamSemibold
-LoadTitle.Text = "Derp X"
+LoadTitle.Text = "D O O R S"
 LoadTitle.TextColor3 = Color3.fromRGB(68, 68, 68)
 LoadTitle.TextSize = 12.000
 LoadTitle.TextXAlignment = Enum.TextXAlignment.Left
@@ -209,27 +209,27 @@ TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 wait(.6)
 
 Barload:TweenSize(UDim2.new(0, 50,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
-LoadText.Text = "Checking game..."
+LoadText.Text = "加载资源中..."
 
 wait(1)
 
 Barload:TweenSize(UDim2.new(0, 100,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
-LoadText.Text = "Getting data..."
+LoadText.Text = "加载模型中..."
 
 wait(.5)
 
 Barload:TweenSize(UDim2.new(0, 150,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
-LoadText.Text = "Executing script..."
+LoadText.Text = "加载用户信息..."
 
 wait(.5)
 
 Barload:TweenSize(UDim2.new(0, 200,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
-LoadText.Text = "Getting ready.."
+LoadText.Text = "已加载完成.."
 
 wait(.5)
 
 Barload:TweenSize(UDim2.new(0, 292,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
-LoadText.Text = "Ready!"
+LoadText.Text = "启用脚本!"
 
 wait(2)
 
