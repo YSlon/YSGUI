@@ -1,4 +1,4 @@
-local IMAGE = "rbxassetid://14297786777"
+local IMAGE = "rbxassetid://1601737767"
 local Positions = UDim2.new(0.822025776, 0, 0.0401606411, 0)
 local Sizes = UDim2.new(0, 76, 0, 70)
 
