@@ -10,11 +10,11 @@ CHENSCRIPT.Name = "CHEN SCRIPT GUI"
 CHENSCRIPT.Parent = game:WaitForChild("CoreGui")
 CHENSCRIPT.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-_100x100.Name = "100x100"
+_100x100.Name = "60×60"
 _100x100.Parent = CHENSCRIPT
 _100x100.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 _100x100.Position = Positions
-_100x100.Size = UDim2.new(0, 76, 0, 70)
+_100x100.Size = UDim2.new(0, 45, 0, 40)
 
 ImageButton.Parent = _100x100
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
