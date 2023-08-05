@@ -8,7 +8,7 @@ local PresetColor = Color3.fromRGB(44, 120, 224)
 local CloseBind = Enum.KeyCode.RightControl
 
 local knixhub = Instance.new("ScreenGui")
-knixhub.Name = "陈脚本 重铸"
+knixhub.Name = "陈脚本 | 极速传奇"
 knixhub.Parent = game.CoreGui
 knixhub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -180,7 +180,7 @@ LoadTitle.BackgroundTransparency = 1.000
 LoadTitle.Position = UDim2.new(0.0432743616, 0, 0.1125011, 0)
 LoadTitle.Size = UDim2.new(0, 200, 0, 23)
 LoadTitle.Font = Enum.Font.GothamSemibold
-LoadTitle.Text = "陈脚本-重铸版"
+LoadTitle.Text = "陈脚本-极速传奇"
 LoadTitle.TextColor3 = Color3.fromRGB(68, 68, 68)
 LoadTitle.TextSize = 12.000
 LoadTitle.TextXAlignment = Enum.TextXAlignment.Left
